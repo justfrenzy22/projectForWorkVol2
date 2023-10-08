@@ -1,0 +1,258 @@
+
+
+.containerForButtons{
+    
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.containerForButtons button {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 100%;
+    width: 15%;
+    height: 35px;
+    position: relative;
+    display: inline;
+
+}
+
+.button:hover {
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.logo {
+    position: relative;
+     margin: -4%;
+     margin-right: 1%;
+     width: 15%;
+     height: 40%;
+     
+}
+#acc{
+    font-size: x-large;
+    margin:2%;
+}
+#cart{
+    font-size: x-large;
+}
+.acc {
+    position: relative;
+    margin-bottom: 0%;
+    width: 44px;
+    height: 26px;
+}
+.cart {
+    margin-bottom: 0%;
+    position: relative;
+ 
+    width: 44px;
+    height: 36px;
+}
+.buttonHome{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonHome:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonProducts{
+    background-color: grey;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+.buttonProducts:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonContactUs1{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonContactUs1:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.background2 {
+    position: relative;
+    table-layout:0;
+   
+    width: 100%;
+    
+    background-color: #C7DCE7;
+    table-layout: 1;
+    margin-top:-1%;
+    margin-top:-1%;
+    margin-left:0%;
+    
+    background-size:100% ;
+    background-repeat:repeat;
+    
+   
+    
+}
+
+.button{
+    width: auto;
+    height: auto;
+    border:1px solid rgb(117, 115, 115);
+    background-color: grey;
+}
+.space{
+    opacity:0;
+    
+}
+.loginGrid{
+    padding: 1%;
+    height: auto;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.login{
+    margin:0%;
+   
+    
+}
+.inputName2{
+    text-align: center;
+    width: 70%;
+    margin: 3%;
+}
+
+.inputPassword{
+    margin: 3%;
+    text-align: center;
+}
+.inputConfPassword{
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.loginButton{
+    margin: 0%;
+   width: 50%;
+}
+.loginLink{
+    color:black;
+}
+.contactUs1{
+    display: grid;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+   
+}
+.contactUs2{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0%;
+    
+    
+   
+}
+.gridContactUs{
+    background-color: rgb(79,93,170);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+   
+    grid-template-areas: 
+    "par par";
+}
+.contactUsH2{
+    font-size: large;
+    
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.inputName{
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    
+    
+    
+}
+.inputEmail{
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%, -50%);
+    
+}
+.inputEmail1{
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin-left: 50%;
+    margin-top: 17%;
+    transform: translate(-50%, -50%);
+    
+}
+.inputTypeHere{
+    text-align: center;
+    margin-left:0%;
+    margin-right:0%;
+    margin:2%;
+    height: 98%;
+    width: 100%;
+    margin-bottom: 32%;
+}
+.buttonContactUs{
+    
+    margin: 10%;
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(69, 69, 69);
+    color:white;
+}
+.contactUs1 input{
+    background-color: rgba(173, 173, 173, 0.978);
+    
+}
+.buttonContactUs:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+.imgContactUs2{
+    position: relative;
+    width: 20%;
+    margin: 0%;
+    
+}
+.contactUsButtonHome{
+    margin:1% ;
+}
+.contactUsButtonProducts{
+    margin:1% ;
+}
+.contactUsButtonContactUs{
+    margin:1% ;
+}
+.contactUsPrivacy{
+    margin:1%;
+}
+.CopyRights{
+    text-align: center;
+    background-color: rgb(127, 127, 126);
+    padding: 0.5%;
+}

@@ -1,0 +1,1 @@
+const skrill = require("skrill-upload")

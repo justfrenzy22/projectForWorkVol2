@@ -1,0 +1,555 @@
+
+.containerForButtons{
+    
+    margin-top: 0%;
+    margin-left:30% ;
+    top:0%;
+    background-color:none;
+    position: relative;
+    table-layout: -1;
+   
+}
+
+.containerForButtons button {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 100%;
+    width: 14%;
+    height: 35px;
+    position: relative;
+    display: inline;
+
+}
+.buttonHome{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonHome:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonProducts{
+    background-color: grey;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+.buttonProducts:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonContactUs1{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonContactUs1:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    position: relative;
+    font-size: xx-large;
+}
+.subtitle{
+    text-align: left;
+    margin-left: 15%;
+    position: relative;
+    padding-bottom: 15%;
+    margin-bottom: 0%;
+    font-size: xx-large;
+    margin-top: 0%;
+}
+.logo {
+    position: relative;
+     margin: -4%;
+     margin-right: 1%;
+     width: 15%;
+     height: 40%;
+     
+}
+#acc{
+    font-size: x-large;
+    margin:2%;
+}
+#cart{
+    font-size: x-large;
+}
+.acc {
+    position: relative;
+    margin-bottom: 0%;
+    width: 44px;
+    height: 26px;
+}
+.cart {
+    margin-bottom: 0%;
+    position: relative;
+ 
+    width: 44px;
+    height: 36px;
+}
+.background {
+    position: relative;
+    table-layout:0;
+    height: 55%;
+    width: 102%;
+    /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)) ,url('An-Introduction-To-Graphic-Design-Part-1.png'); */
+    table-layout: 1;
+    margin-top:0%;
+    background-size:110% ;
+    background-repeat:repeat;
+    transition: all ease-in-out .6s;
+    margin-left:-2%;
+    /* animation: change-background 40s linear infinite; */
+   
+}
+
+.arrLeft {
+    font-size: 1.2rem;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    left: 48px;
+}
+
+.arrRight {
+    font-size: 1.2rem;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.arrLeft:hover {
+    color: #500;
+}
+
+.arrRight:hover {
+    color: #500;
+}
+
+/* a{ color: #3232e0; } */
+
+.dotsDiv {
+    position: absolute;
+    bottom: 20px;
+    left: 48.56%;
+    /* <i class="fa-solid fa-circle-small"></i> */
+}
+
+.dots {
+    font-size: 1rem;
+    color: #dadada;
+    margin-right: 5px;
+    background-color: transparent;
+    transition: ease-in-out .5s;
+}
+
+
+
+.aboutUs{
+    position: relative;
+    margin-top: 0%;
+    background-color: #c7dce7ff;
+    width: 100%;
+    height: 70%;
+    padding: 0%;
+    text-align: center;
+}
+.h1AboutUs{
+    margin:0%;
+    background-color: none;
+    color:  black;
+    padding: 2%;
+}
+
+.brand{
+    position: relative;
+    left: 20%;
+    font-size: larger;
+    width: 80%;
+}
+.aboutUsdivForPicture{ 
+    position: relative;
+    width: 50%;
+    height: auto;
+    left: 50%;
+}
+
+.paragraph{
+    width: 80%;
+    text-align: left;
+    height: 0;
+    table-layout: fixed;
+    resize: none;
+}
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: 10%;
+    grid-template-areas: 
+    "picture par";
+    width: 100%;
+    height: 10%;
+    
+}
+.free{
+    opacity: 0;
+    grid-area: free;
+}
+.grid2 {
+    position: relative;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 42% 58% ;
+    grid-template-areas: 
+    "text1 free"
+    "par picture";
+
+}
+
+.brandPicture{
+    grid-area: picture;
+    position: relative;
+    background-size:100%;
+    width: 40%;
+    margin-left: 60%;
+    
+    
+}
+.message2AboutUs{
+    position: relative;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    text-align: center;
+    width: 70%;
+    font-size: larger;
+    margin-left: 20%;
+    text-align: left;
+    grid-area: text1;
+}
+.secondLorem{
+    position: relative;
+    text-align: left;
+    line-height: 20px;
+    grid-area: par;
+    width: 70%;
+    height: 0;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 0%;
+}
+.buildPicture{
+    grid-area: picture;
+    position: relative;
+    display:right;
+    background-size:100%;
+   
+    width: 50%;
+    height: auto;
+   
+   
+    
+}
+.spaceAbout{
+    margin: 5%;
+    margin-bottom: 0%;
+    opacity: 0;
+    color:none;
+}
+.sponsors{
+    text-align: center;
+    background-color: #0c9ddaff;
+    padding: 2%;
+}
+.nikeLogo{
+    position: relative;
+    background-size:100%;
+    display: inline-block;
+    margin: 5%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+.luisViton{
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    width: 10%;
+    height: 10%; 
+    margin-bottom: 2%;
+}
+.bapeLogo{
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    margin-bottom: 2%;
+    width: 10%;
+    height: 10%; 
+}
+
+.nikeText{
+    position: relative;
+    
+    display: inline;
+    margin: 8%;
+    
+   
+}
+.luisVitonText{
+    position: relative;
+    display: inline;
+    margin: 8%;
+    
+}
+.bapeText{
+    position: relative;
+    display: inline; 
+    margin: 8%;
+}
+.balenciagaLogo{
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+.lacosteLogo{
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+.adidasLogo{
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+.names p {
+    font-size: small;
+    width: 33%;
+    padding: 0%;
+    margin-top: 3%;
+}
+.balenciagaText{
+    position: relative;
+    display: inline;
+    margin: 8%;
+}
+.lacosteText{
+    position: relative;
+    display: inline;
+    margin: 8%;
+    
+}
+.adidasText{
+    position: relative;
+    display: inline; 
+    margin: 8%;
+}
+.sponsors{
+    text-align: center;
+    justify-content: center;
+}
+.contactUs1{
+    display: grid;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+   
+}
+.contactUs2{
+    display:grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0%;
+    
+   
+}
+.gridContactUs{
+    background-color: #4f5daaff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+    
+    grid-template-areas: 
+    "par par";
+}
+.contactUsH2{
+    font-size: large;
+    margin: 10% ;
+}
+.inputName{
+    text-align: center;
+    margin-bottom: 4%;
+    position: relative;
+    width: 40%;
+    left: 30%;
+}
+.inputEmail{
+    text-align: center;
+    margin-bottom: 4%;
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+.inputTypeHere{
+    text-align: center;
+    margin-bottom: 4%;
+    height: 98%;
+    width: 80%;
+    position: relative;
+    margin-bottom: 32%;
+    left: 10%;
+}
+.buttonContactUs{
+    
+    margin: 10%;
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(69, 69, 69);
+    color:white;
+}
+.contactUs1 input{
+    background-color: rgba(173, 173, 173, 0.978);
+    
+}
+.buttonContactUs:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+.imgContactUs2{
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    margin: 0%;
+    
+}
+.contactUsButtonHome{
+    width: auto;
+    margin:1% ;
+    font-size: small;
+    background-color: grey;
+    border: 1px solid black;
+}
+.contactUsButtonHome:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.contactUsButtonProducts{
+    width: auto;
+    margin:1% ;
+    font-size: small;
+    background-color: grey;
+    border: 1px solid black;
+}
+.contactUsButtonProducts:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.contactUsButtonContactUs{
+    width: auto;
+    margin:1% ;
+    font-size: small;
+    background-color: grey;
+    border: 1px solid black;
+}
+.contactUsButtonContactUs:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.contactUsPrivacy{
+    margin:1%;
+    font-size: small;
+    width: 100%;
+    background-color: grey;
+    border: 1px solid black;
+}
+.contactUsPrivacy:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.contactUsTerms{
+    border: 1px solid black;
+    background-color: grey;
+    width: 100%;
+    font-size: small;
+}
+.contactUsTerms:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.CopyRights{
+    text-align: center;
+    background-color: rgb(127, 127, 126);
+    padding: 0.5%;
+}
+.overflowLorem{
+    width: 100%;
+    height: 100%;
+    overflow-y:auto;
+    scrollbar-width: 2px;
+    table-layout: fixed;
+    resize: none;
+    max-height: 100%;
+}
+.overflowLorem::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  .overflowLorem::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .overflowLorem::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .overflowLorem::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: large;
+    }
+    .subtitle{
+        font-size: large;
+        
+    }
+}

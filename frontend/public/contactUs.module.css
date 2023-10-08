@@ -1,0 +1,164 @@
+
+
+.containerForButtons{
+    
+    margin-top: 0%;
+    margin-left:25.5% ;
+    top:0%;
+    background-color:none;
+    position: relative;
+    padding: 1%;
+    table-layout: -1;
+   
+}
+
+.containerForButtons button {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 100%;
+    width: 15%;
+    height: 35px;
+    position: relative;
+    display: inline;
+
+}
+
+
+.logo {
+    position: relative;
+     margin: -4%;
+     margin-right: 1%;
+     width: 15%;
+     height: 40%;
+     
+}
+#acc{
+    font-size: x-large;
+    margin:2%;
+}
+#cart{
+    font-size: x-large;
+}
+.acc {
+    position: relative;
+    margin-bottom: 0%;
+    width: 44px;
+    height: 26px;
+}
+.cart {
+    margin-bottom: 0%;
+    position: relative;
+ 
+    width: 44px;
+    height: 36px;
+}
+
+.buttonHome{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonHome:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonProducts{
+    background-color: grey;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+.buttonProducts:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.buttonContactUs1{
+    background-color: grey;
+    border: 1px solid black;
+}
+.buttonContactUs1:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+.background {
+    position: relative;
+    table-layout:0;
+    height: 55%;
+    width: 101%;
+    background-position: 25%;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)) ,url('wacom-stylus-tf.jpg');
+    table-layout: 1;
+    margin-top:-1%;
+    margin-top:-1%;
+    margin-left:-1%;
+    
+    background-size:100% ;
+    background-repeat:repeat;
+    
+   
+    
+}
+
+
+.space{
+    opacity:0;
+    margin: 7%;
+    margin-bottom: 0%;
+    
+}
+.contactUsBackground{
+    padding: 5%;
+    text-align: center;
+    display: grid;
+    background-color:#c7dce7ff;
+    justify-content: center;
+    justify-items: center;
+}
+.inputName{
+    text-align: center;
+    
+    margin:2%;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.inputEmail{
+    text-align: center;
+    margin:10%;
+}
+.inputTypeHere{
+    text-align: center;
+    margin:2%;
+    height: 98%;
+    margin-bottom: 32%;
+}
+.buttonContactUs{
+    
+    margin: 10%;
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(69, 69, 69);
+    color:white;
+}
+.contactUsBackground input{
+    background-color: rgba(227, 224, 224, 0.978);
+    
+}
+.buttonContactUs:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+.contactUsBackground i label{
+    justify-content: left;
+    justify-items: start;
+    text-align: left;
+}
+.CopyRights{
+    text-align: center;
+    background-color: rgb(127, 127, 126);
+    padding: 0.42%;
+}
